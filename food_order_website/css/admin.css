@@ -1,0 +1,136 @@
+/*
+   Author: sandeepa
+   Theme:Food order website
+   version:1.0 
+ */
+ *{
+     margin:0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .wrapper{
+     
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .text-center{
+     text-align:center;
+ }
+
+ .clearfix{
+     float: none;
+     clear: both;
+ }
+
+ .tbl-full{
+     width: 100%;
+ }
+ 
+ .tbl-30{
+     width:30%;
+ }
+
+ table tr th{
+     border-bottom: 1px solid black;
+     padding: 2%;
+     text-align: left;
+ }
+
+ table tr td{
+     padding: 1%;
+ }
+
+ .btn-primary{
+     background-color: #e67e22;
+     padding: 0.5%;
+     color: aliceblue;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .btn-primary:hover{
+     background-color: #e74c3c;
+ }
+
+ .btn-secondary{
+    background-color: #e67e22;
+    padding: 0.5%;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2%;
+}
+
+.btn-secondary:hover{
+    background-color: #e74c3c;
+}
+
+.btn-third{
+    background-color: #e67e22;
+    padding: 0.5%;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-third:hover{
+    background-color: #e74c3c;
+}
+
+
+ /* CSS for Menu*/
+ 
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight:bold;
+    color: #e67e22;
+
+}
+
+.menu ul li a:hover{
+    color:#e74c3c ;
+}
+
+ /* Css for Footer */
+ 
+ .footer{
+     background-color:#e67e22 ;
+     color: aliceblue;
+ }
+
+ /* CSS for main content */
+
+ .main-content{
+     margin: 1% 0;
+     background-color:#bdc3c7 ;
+     padding: 3% 0;
+ }
+
+ .col-4{
+     width: 18%;
+     background-color: white;
+     margin: 1%;
+     padding: 2%;
+     float: left;
+ }
+
+ /* css for login */
+ .login{
+     border:1px solid gray;
+     width:20%;
+     margin: 10% auto;
+     padding: 2%;
+ }
